@@ -9,7 +9,6 @@ public class CullInt : MonoBehaviour
     float radius;
     public Texture t1;
     public Texture t2;
-    // Update is called once per frame
     void Update()
     {
         gameObject.GetComponent<Renderer>().material.SetTexture("_MainTex", t1);
